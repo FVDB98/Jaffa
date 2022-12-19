@@ -156,6 +156,8 @@ html{
 .title{
     text-align: center;
     padding-top: 10px;
+    font-weight: 900;
+    padding-bottom: 10px;
 }
 
 .title h2{
@@ -194,6 +196,15 @@ html{
 .content-block{
     flex-basis: 50%;
     text-align: center;
+    background-color: rgba(69, 136, 109, 0.3);
+}
+
+.content-block h1{
+    margin: 0;
+}
+
+.content-block p{
+
 }
 
 
