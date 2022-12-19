@@ -1,0 +1,166 @@
+body{
+    font-family: "Poppins";
+    margin: 0;
+}
+
+html{
+
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li{
+    display: inline-block;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: orange;
+    font-size: 30px;
+}
+
+.nav-links ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.outer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/home.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.details h1{
+    color: orange;
+    font-size: 220px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.details p{
+    color: white;
+    font-size: 26px;
+}
+
+
+.latest{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+}
+
+.latest h6{
+    font-size: 40px;
+}
+
+.latest h6 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.latest h6 a:hover{
+    color: white;
+    transition-duration: 0.4s;
+}
+
+/* Latest Page */
+.latest-header{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(219, 236, 255, 0.7);
+}
+
+.latest-container{
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(219, 236, 255, 0.7);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.block{
+    flex-basis: 50%;
+    background-color: rgba(255, 238, 219, 0.5);
+}
+
+.image{
+    width: 100%;
+}
+
+.block h1{
+    text-align: center;
+}
+
+.block p{
+    text-align: center;
+}
+
+@media screen and (max-width: 520px){
+    .nav-links ul li a{
+        text-decoration: none;
+        padding: 15px;
+        color: orange;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .details h1{
+        color: orange;
+        font-size: 120px;
+        margin: 0;
+        font-weight: 900;
+    }
+    .latest h6{
+        font-size: 20px;
+    }
+    .details p{
+        color: white;
+        font-size: 16px;
+    }
+    
+}
