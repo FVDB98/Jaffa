@@ -30,7 +30,7 @@ html{
     text-decoration: none;
     padding: 15px;
     color: white;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .nav-links ul li a:hover{
@@ -68,9 +68,9 @@ html{
 
 .details h1{
     color: orange;
-    font-size: 220px;
     margin: 0;
     font-weight: 900;
+    font-size: 120px;
 }
 
 .details p{
@@ -101,6 +101,7 @@ html{
 }
 
 /* Latest Page */
+
 .latest-header{
     width: 100%;
     text-align: center;
@@ -147,26 +148,130 @@ html{
     text-align: center;
 }
 
-@media screen and (max-width: 520px){
-    .nav-links ul li a{
-        text-decoration: none;
-        padding: 15px;
+/* Articles Page */
+.type-container{
+
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title h2{
+    margin: 0;
+    padding: 0;
+}
+
+.type-links ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.type-links ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.type-links ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.content-container{
+
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.content-block{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 320px){
+    .latest h6 a{
         font-size: 16px;
     }
 }
-
-@media screen and (max-width: 720px) {
-    .details h1{
-        font-size: 120px;
-        margin: 0;
-        font-weight: 900;
-    }
-    .latest h6{
+@media screen and (min-width: 480px){
+    .nav-links ul li a{
+        text-decoration: none;
+        padding: 15px;
         font-size: 20px;
     }
     .details p{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 620px){
+
+}
+
+@media screen and (min-width: 768px) {
+    .details h1{
+        font-size: 220px;
+        margin: 0;
+        font-weight: 900;
+    }
+    .latest h6 a{
+        font-size: 40px;
+    }
+    .details p{
         color: white;
-        font-size: 16px;
+        font-size: 40px;
+    } 
+    .content-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .title h2{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .latest-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
+}
+
+@media screen and (min-width: 1200px){
+    .title h2{
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    .type-links ul li a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1450px){
+
+}
+
+@media screen and (min-width: 1600px){
+
 }
