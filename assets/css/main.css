@@ -29,13 +29,13 @@ html{
 .nav-links ul li a{
     text-decoration: none;
     padding: 15px;
-    color: orange;
+    color: white;
     font-size: 30px;
 }
 
 .nav-links ul li a:hover{
     text-decoration: underline;
-    color: white;
+    color: orange;
     transition: ease-in-out 0.5s;
 }
 
@@ -106,13 +106,13 @@ html{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba(219, 236, 255, 0.7);
+    background-color: rgba(69, 136, 109, 0.65);
 }
 
 .latest-container{
     background-size: cover;
     background-position: center;
-    background-color: rgba(219, 236, 255, 0.7);
+    background-color: rgba(69, 136, 109, 0.6);
 }
 
 .wrapper{
@@ -120,19 +120,27 @@ html{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    border-radius: 2px;
 }
 
 .block{
     flex-basis: 50%;
-    background-color: rgba(255, 238, 219, 0.5);
+    background-color: rgba(69, 136, 109, 0.65);
 }
 
 .image{
     width: 100%;
 }
 
+.caption{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
 .block h1{
     text-align: center;
+    margin: 0;
 }
 
 .block p{
@@ -143,14 +151,12 @@ html{
     .nav-links ul li a{
         text-decoration: none;
         padding: 15px;
-        color: orange;
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 720px) {
     .details h1{
-        color: orange;
         font-size: 120px;
         margin: 0;
         font-weight: 900;
