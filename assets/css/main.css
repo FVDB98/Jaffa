@@ -217,10 +217,16 @@ html{
 }
 
 /* Article Content */
+.article-container{
+
+}
+
 .article-title{
     text-align: center;
     font-size: 20px;
-    padding: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .article-title h1{
@@ -231,11 +237,15 @@ html{
     font-size: 12px;
     color: red;
     opacity: 0.7;
+    padding: 5px;
 }
 
 .article-content{
     padding-left: 10px;
     padding-right: 10px;
+    background-color: rgba(69, 136, 109, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .article-content p{
