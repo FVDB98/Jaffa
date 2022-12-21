@@ -1,3 +1,5 @@
+/* Universal styles */
+
 body{
     font-family: "Poppins";
     margin: 0;
@@ -7,6 +9,8 @@ html{
 
 }
 
+/* Header styling */
+
 .header{
     width: 100%;
     text-align: center;
@@ -15,6 +19,8 @@ html{
     position: fixed;
     z-index: 1;
 }
+
+/* Header nav links */
 
 .nav-links ul{
     list-style: none;
@@ -38,6 +44,8 @@ html{
     color: orange;
     transition: ease-in-out 0.5s;
 }
+
+/* Home Page */
 
 .container{
     position: absolute;
@@ -177,6 +185,7 @@ html{
   }
 
 /* Articles Page */
+
 .type-container{
     
 }
@@ -256,6 +265,7 @@ html{
 }
 
 /* Article Content */
+
 .article-container{
 }
 
